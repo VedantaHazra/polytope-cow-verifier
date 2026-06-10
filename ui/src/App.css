@@ -1,0 +1,88 @@
+/* V5 Dense Command Center Styles */
+.master-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr;
+  gap: 1.5rem;
+}
+
+.dense-panel {
+  padding: 1.5rem;
+  background: #0f172a;
+  border: 1px solid #1e293b;
+}
+
+.dense-panel h3 {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #1e293b;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.input-row label {
+  margin: 0;
+  font-size: 0.8rem;
+  flex: 1;
+}
+
+.input-row select,
+.input-row input[type="number"],
+.input-row input[type="range"] {
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  background: #020617;
+  border: 1px solid #334155;
+}
+
+.topology-box {
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #334155;
+  background: #020617;
+}
+
+.topology-box h4 {
+  margin: 0 0 10px 0;
+  font-size: 0.8rem;
+  color: #cbd5e1;
+}
+
+.source-box {
+  border-left: 3px solid #ef4444;
+}
+
+.dest-box {
+  border-left: 3px solid #3b82f6;
+}
+
+.filter-box {
+  border: 1px dashed #64748b;
+  background: transparent;
+  transition: 0.3s;
+}
+
+.filter-box.active {
+  border: 1px solid #10b981;
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.giant-btn {
+  padding: 20px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.output-panel {
+  background: #020617;
+}
