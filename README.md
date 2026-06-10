@@ -2,7 +2,7 @@
 
 A deterministic, low-latency formal verification node designed specifically for CoW Protocol GPv2 solvers. Polytope uses the **Z3 SMT (Satisfiability Modulo Theories) solver** to mathematically validate batch settlement invariants off-chain, preventing on-chain reverts and eliminating wasted gas.
 
-## ⚠️ Grant Proposal Notice
+## Grant Proposal Notice
 
 This repository contains the lightweight **Proof of Concept (PoC)** constraint engine developed as part of the Polytope CoW DAO Grant Application. It demonstrates the technical viability of sub-50ms SAT/UNSAT resolution for GPv2 settlement parameters using fixed-point integer mathematics.
 
